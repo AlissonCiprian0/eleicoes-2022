@@ -1,0 +1,38 @@
+.HomePage {
+  width: 100vw;
+  min-height: 100vh;
+}
+.HomePage .HomeHeader {
+  width: 100%;
+  padding: 6em 6em 4em 6em;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.HomePage .HomeHeader .HomeHeader-title h1 {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: start;
+}
+.HomePage .HomeHeader .HomeHeader-title h1 span {
+  margin-top: -28px;
+}
+.HomePage .HomeHeader button {
+  cursor: pointer;
+  background-color: var(--clr-primary-600);
+  border: 0;
+  padding: 10px 25px;
+  border-radius: 30px;
+  gap: 10px;
+  font-weight: 700;
+  font-size: 1.2em;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .HomePage .HomeHeader {
+    flex-direction: column;
+    max-height: 260px;
+    padding: 3em 8vw;
+  }
+}
